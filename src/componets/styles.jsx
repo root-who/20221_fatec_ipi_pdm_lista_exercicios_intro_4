@@ -25,11 +25,9 @@ export const ContainerBolinha = styled.div`
     border-radius:50%;
 `;
 
-
 export const Wave =  styled.svg`
     background: #ff912a;
 `;
-
 
 export const Logo  = styled.img`
     width: 15%;
