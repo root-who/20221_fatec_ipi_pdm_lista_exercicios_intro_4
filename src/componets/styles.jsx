@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled , { keyframes }from 'styled-components'
 
 export const ContainerHeader = styled.div`
    background: #ff912a; 
@@ -23,7 +23,30 @@ export const ContainerBolinha = styled.div`
     text-align: center;
     background: white;
     border-radius:50%;
+    
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 5px 8px 0px rgb(0 0 0 / 14%), 0px 1px 14px 0px rgb(0 0 0 / 12%);
 `;
+
+
+
+
+
+const Up = keyframes`  
+  0% { 
+    transform: translateY(20px);
+    opacity:1;
+   }
+
+  100% { 
+    transform: translateY(-180%);
+    z-index:-40;
+  }
+`;
+
+export const Number = styled.h1`
+    animation: ${Up} 1s ;
+`;
+
 
 export const Wave =  styled.svg`
     background: #ff912a;
