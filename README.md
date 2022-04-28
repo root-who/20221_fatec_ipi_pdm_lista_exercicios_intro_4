@@ -1,4 +1,7 @@
 # Getting Started 
+
+In some directory, you must run:
+
 ### `git clone https://github.com/root-who/20221_fatec_ipi_pdm_lista_exercicios_intro_4.git`
 
 ## Up the page
