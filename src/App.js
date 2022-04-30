@@ -1,4 +1,4 @@
-import Loteria from './componets/Loteria';
+import Loteria from './componets/main';
 //import logo from './logo.svg';
 
 
